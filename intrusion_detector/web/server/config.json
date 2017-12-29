@@ -1,0 +1,36 @@
+{
+    "development": {
+        "db": {
+            "database": "intrusion_detector_db",
+            "host": "localhost",
+            "password": "root",
+            "port": 5432,
+            "user": "postgres"
+        },
+        "server": {
+            "database": "intrusion_detector_db",
+            "host": "localhost",
+            "password": "root",
+            "port": 5432,
+            "user": "postgres"
+        },
+        "transportLevel": "debug"
+    },
+    "production": {
+        "db": {
+            "database": "intrusion_detector_db",
+            "host": "localhost",
+            "password": "root",
+            "port": 5432,
+            "user": "postgres"
+        },
+        "server": {
+            "database": "intrusion_detector_db",
+            "host": "localhost",
+            "password": "root",
+            "port": 5432,
+            "user": "postgres"
+        },
+        "transportLevel": "error"
+    }
+}

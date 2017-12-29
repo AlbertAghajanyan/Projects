@@ -1,0 +1,241 @@
+#cont {
+    background-image: url("../../assets/images/city.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000000;
+    width: 100%;
+    min-width: 300px;
+    min-height: calc(100vh - 200px);
+}
+
+.notFound {
+    display: none;
+    color: red;
+    font-size: 2em;
+    text-align: center;
+}
+
+.camera-info {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-color: rgba(230, 231, 255, 1);
+    font-size: 1em;
+    box-shadow: 1px 1px 5px #888888;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 499px) {
+    .camera-info {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .camera-info {
+        width: 45%;
+        margin: 2% 2.5% 1% 2.5%;
+    }
+}
+
+.cam-foto {
+    background-image: url("../../assets/images/cam.svg");
+    margin: 30px 0 0 11px;
+    padding: 9%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 499px) {
+    .cam-foto {
+        margin: 15px 11px 0 0;
+        padding: 15%;
+    }
+}
+
+.cam-foto:hover {
+    opacity: 0.6;
+}
+
+.info {
+    float: left;
+    width: 57%;
+}
+
+.info hr {
+    height: 1px;
+    background-color: #b6b6b6;
+    margin: 1px 0 0 0;
+}
+
+.info-field {
+    margin-bottom: 0;
+    margin-top: 3%;
+    text-align: left;
+}
+
+.icons {
+    width: 4%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.icons>button {
+    background-color: rgba(230, 231, 255, 0);
+}
+
+.icons>button:focus {
+    outline: none;
+}
+
+.icons>button:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.searchForm {
+    padding: 0 11px 0 11px;
+}
+
+#search {
+    margin-top: 20px;
+}
+
+#search_but {
+    background-color: rgba(230, 231, 255, 0.8);
+    border-radius: 0 4px 4px 0;
+    height: 35px;
+    border-color: rgb(169, 169, 169);
+    width: 80%;
+}
+
+@media only screen and (max-width: 630px) {
+    #search_but {
+        padding-left: 5px;
+        width: 60%;
+    }
+}
+
+#search_but,
+.drop:active {
+    outline: none;
+}
+
+#search_but,
+.drop:focus {
+    outline: none;
+}
+
+.drop {
+    height: 35px;
+    background-color: rgba(230, 231, 255, 0.8);
+    width: 20%;
+    font-size: 1em;
+    padding-left: 13px;
+    float: left;
+    border-color: rgb(192, 192, 192);
+}
+
+.dropOpts {
+    width: 500px;
+    /* font-size: 2em; */
+    /* width: 100%; */
+    cursor: pointer;
+    transform: scale(5);
+}
+
+.selectBut {
+    padding: 0;
+}
+
+@media only screen and (max-width: 630px) {
+    .drop {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .drop {
+        font-size: 1.3em;
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .drop {
+        font-size: 1.3em;
+        width: 10%;
+    }
+}
+
+.input_area {
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: rgba(96, 108, 136, 0.32);
+    border-radius: 4px 0 0 4px;
+}
+
+.longitude {
+    border-radius: 0;
+}
+
+.loc-input {
+    border-left: 1px solid rgb(169, 169, 169);
+    padding-left: 5px;
+}
+
+#delEdit {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    opacity: 0.6;
+    display: none;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*pagination*/
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.my-pagination /deep/ .ngx-pagination {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.pagination /deep/ .ngx-pagination .current {
+    background: rgba(80, 90, 130, 1);
+    height: 25px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.pagination /deep/ .ngx-pagination .disabled {
+    color: #888888;
+}
+
+.pagination /deep/ .ngx-pagination li>a:hover {
+    background: #e6e6e6;
+    color: #000000;
+}

@@ -1,0 +1,43 @@
+<div class="container" id="cont">
+    <div class="row" id="search">
+        <form (ngSubmit)="formSubmit()" class="form-group col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 searchForm ">
+            <input [(ngModel)]='search.searchData' name="simpleSearch" *ngIf="searchBy != 'location'" class="input_area col-sm-10 col-xs-10" placeholder="Search..." type="text" required>
+            <input [(ngModel)]='search.searchDataLat' name="searchByLat" *ngIf="searchBy === 'location'" class="input_area col-sm-5 col-xs-5 loc-input" placeholder="Latitude" type="number">
+            <input [(ngModel)]='search.searchDataLon' name="searchByLon" *ngIf="searchBy === 'location'" class="input_area col-sm-5 col-xs-5 loc-input longitude" placeholder="Longitude" type="number">
+            <div class="selectBut col-sm-2 col-xs-2">
+                <select name="searchAreaSelect" [(ngModel)]="searchBy" (click)="clearSearchArea()" class="drop">
+                    <option class="dropOpts" value="camName">{{selectData[1]}}</option>
+                    <option class="dropOpts" value="location">{{selectData[2]}}</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+    <div id="notFound" *ngIf="notFound">
+        There are not cameras info.
+    </div>
+    <div class="cameras" id="cam-area" *ngFor="let item of allItems | camerasFilter : search.searchData:search.searchDataLat:search.searchDataLon | paginate: { itemsPerPage: 5, currentPage: p }">
+
+        <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1  camera-info" *ngIf="item.show">
+            <div class="cam-foto">
+            </div>
+            <div class="info">
+                <p class="info-field" style="margin: 2% 0  0 ;"><b> {{item.camera_name}}</b></p>
+                <p class="info-field">Online&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {{item.online}}</p>
+                <p class="info-field">Latitude&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: {{item.location.x}}</p>
+                <p class="info-field">Longitude&nbsp;&nbsp;&nbsp;&nbsp;: {{item.location.y}}</p>
+                <p class="info-field">Description&nbsp;&nbsp;: {{item.description}}</p>
+            </div>
+            <div *ngIf="this.authenticationService.isLogin" class="icons">
+                <button class="edit btn glyphicon glyphicon-edit col-md-3 col-xs-3 col-sm-3 col-md-offset-1 col-xs-offset-1 col-sm-offset-1" title="Edit" (click)="show(item)" data-toggle="modal" data-target="#myModal">
+                </button>
+                <button class="btn glyphicon glyphicon-remove-circle col-md-3 col-xs-3 col-sm-3 col-md-offset-1 col-xs-offset-1
+                 col-sm-offset-1" title="Delete" (click)="delete(item)"> </button>
+            </div>
+        </div>
+        <id-edit-area [cam]="cam" [name]="editAreaName" [latitude]="editAreaLatitude" [longitude]="editAreaLongitude" [description]="editAreaDescription" [online]="editAreaOnline"></id-edit-area>
+    </div>
+    <div id="delEdit"> </div>
+</div>
+<pagination-controls class="pagination" (pageChange)="p = $event"></pagination-controls>
+<id-error-modal></id-error-modal>

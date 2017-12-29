@@ -1,0 +1,36 @@
+<div class="container cont">
+    <div class="card card-container col-md-4  col-sm-6  col-xs-8 col-lg-3" id="loginForm">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <form class="form-signin" (ngSubmit)="formSubmit(mail.errors && mail.errors.required, password.errors && password.errors.required)">
+            <div class="form-group">
+                <input type="email" id="inputEmail" class="form-control " [ngClass]="{'errorInput': !(mail.valid || mail.untouched)}" name="emailArea" #mail="ngModel" [(ngModel)]="login.mail" placeholder="Email address" required autofocus pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+                <div class="md-errors-spacer err" [hidden]="mail.valid || mail.untouched">
+                    <div *ngIf="mail.errors && mail.errors.required">
+                        Email is required
+                    </div>
+                    <div *ngIf="mail.errors && mail.errors.pattern">
+                        Email is invalid
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="password" id="inputPassword" class="form-control" [ngClass]="{'errorInput': !(password.valid || password.untouched)}" name="pswdArea" #password="ngModel" [(ngModel)]="login.password" placeholder="Password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$">
+                <div class="md-errors-spacer err" [hidden]="password.valid || password.untouched">
+                    <div *ngIf="password.errors && password.errors.required">
+                        Password is required
+                    </div>
+                    <div *ngIf="password.errors && password.errors.pattern">
+                        Password is invalid
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-signin" type="submit">Sign in</button>
+            <div id="remember" class="checkbox">
+                <label>
+          <input type="checkbox" name="checkboxArea" value="remember-me" [(ngModel)] = "login.rememberMe"> Remember me
+        </label>
+            </div>
+        </form>
+    </div>
+</div>
+<id-error-modal></id-error-modal>

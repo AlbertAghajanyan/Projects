@@ -1,0 +1,26 @@
+<header>
+    <nav class="menu navbar navbar-fixed-top bg-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header" data-toggle="collapse" data-target=".navbar-collapse.in">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+                <div class="navbar-brand"><img routerLink="home" src="../../assets/images/icon.png" alt="icon"></div>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.in">
+                    <li> <a class="nav-items" routerLink="home" routerLinkActive="active"><i class="icon glyphicon glyphicon-home"></i>&nbsp;&nbsp;HOME</a></li>
+                    <li> <a class="nav-items" routerLink="detected" routerLinkActive="active"><i class="icon glyphicon glyphicon-user"></i>&nbsp;&nbsp;DETECTED OBJECTS</a></li>
+                    <li> <a class="nav-items" routerLink="cameras" routerLinkActive="active"><i class="icon glyphicon glyphicon-camera"></i>&nbsp;&nbsp;CAMERAS</a></li>
+                </ul>
+
+                <ul data-toggle="collapse" data-target=".navbar-collapse.in">
+                    <a (click)="isLogin()" class="nav-items navbar-brand login" routerLink="login"><span class="glyphicon {{ this.authenticationService.isLogin === true ? 'glyphicon-user userIcon' : 'glyphicon-log-in' }}"></span> {{ this.authenticationService.isLogin === true ? "logout" : "login" }} </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

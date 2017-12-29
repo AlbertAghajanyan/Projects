@@ -1,0 +1,45 @@
+<div class="container">
+    <!--datetime-range start="start" end="end"></datetime-range-->
+    <div class="row">
+        <!-- Search bar -->
+        <id-search [objects]="jsObj" (searching)='search($event)' (reload)='reload($event)'></id-search>
+        <!-- Objects info -->
+        <div class="col-md-9">
+            <div id="notFound" *ngIf="notFound">
+                There are not objects info.
+            </div>
+            <div class="row object-row" *ngFor="let object of jsObj | paginate: { itemsPerPage: pageItemsCount, currentPage: currentPage, totalItems: DBobjetsCount }">
+                <div class="object-col col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <div class="row">
+                        <img class="detected-image col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1" [src]="'data:image/jpg;base64,' + object.imagesEncode[0]" alt="object image">
+                        <div class="object-data col-sm-4 col-sm-offset-1 col-xs-7 col-xs-offset-1">
+                            <span *ngFor="let camera of object.cameras">{{camera + "  "}}</span>
+                            <h6>{{object.type}}</h6>
+                            <h6>{{utcTodate(object.firstDetectedDate)}}</h6>
+                        </div>
+                        <div class="action col-xs-offset-2 col-xs-1 ol-sm-1 col-sm-offset-2">
+                            <button *ngIf="this.authenticationService.isLogin" (click)="deleteObject(object.id, jsObj.indexOf(object))" class="btn obj-btn glyphicon glyphicon-remove-circle" title="Delete"> </button>
+                            <button *ngIf="this.authenticationService.isLogin" class="btn obj-btn glyphicon glyphicon-edit" title="Edit" data-toggle="modal" data-target="#edit" (click)="edit(object)"></button>
+                            <id-dt-edit-area [object]="objToEdit" [objType]="editObjecttype" [date]="editObjectDate"></id-dt-edit-area>
+                            <button *ngIf="this.authenticationService.isLogin" (click)=" showCarousel(object)" class="btn obj-btn glyphicon glyphicon-fullscreen" title="Slide"></button>
+                        </div>
+                        <div *ngIf="this.authenticationService.isLogin" class="btn-group merge" data-toggle="buttons" title="Check if you want to merge objects">
+                            <label class="btn btn-defalut" (click)="mergeObjects(object)">
+                                <input type="checkbox"  ngControl="check">
+                                <span class="glyphicon glyphicon-ok"  *ngIf="object.isChecked"></span> 
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <pagination-controls class="my-pagination" (pageChange)="pageChanged($event)" maxSize="9" directionLinks="true" autoHide="true" previousLabel="Previous" nextLabel="Next" screenReaderPaginationLabel="Pagination" screenReaderPageLabel="page" screenReaderCurrentLabel="You're on page">
+            </pagination-controls>
+        </div>
+        <id-carousel [object]="clickedObject" *ngIf="isShowCarusel" (onChanged)="onChanged()"></id-carousel>
+    </div>
+    <!-- Merge component -->
+    <div *ngIf="this.authenticationService.isLogin" class="btn merge-count glyphicon" title="Merge" data-toggle="modal" data-target="#myModal">{{selectedObjects.length}}</div>
+    <button *ngIf="this.authenticationService.isLogin" class="btn merge-button glyphicon glyphicon-link" title="Merge" data-toggle="modal" data-target="#myModal"></button>
+    <id-merge [selectedObjects]="selectedObjects" (reload)='reload($event)'></id-merge>
+    <id-error-modal></id-error-modal>
+</div>

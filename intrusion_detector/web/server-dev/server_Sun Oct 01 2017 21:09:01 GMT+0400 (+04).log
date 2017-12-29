@@ -1,0 +1,61 @@
+{"level":"info","message":"DataBase constructor called","timestamp":"2017-10-01T17:09:01.865Z"}
+{"level":"info","message":"Called upload image","timestamp":"2017-10-01T17:09:02.187Z"}
+{"level":"info","message":"Data Base connection success ...","timestamp":"2017-10-01T17:09:02.256Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:11:18.579Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:11:18.590Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:11:19.931Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:11:19.938Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:11:20.185Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:11:20.190Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:11:33.256Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:11:33.274Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:11:39.241Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:11:39.244Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:03.976Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:03.988Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:06.103Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:06.106Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:06.870Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:06.871Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:07.736Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:07.740Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:55.022Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:55.027Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:56.670Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:56.675Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:57.018Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:57.020Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:12:57.782Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T17:12:57.787Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:04.961Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:04.965Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:17.748Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:17.753Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:18.271Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:18.274Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:18.489Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:18.495Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:18.753Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:18.757Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:19.740Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:19.747Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:19.958Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:19.967Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:21.065Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:21.075Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:21.299Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:21.306Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:26.303Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:26.306Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:14:29.416Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:14:29.421Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:15:11.555Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:15:11.564Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:15:17.341Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:15:17.343Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:15:18.456Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:15:18.459Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:15:18.701Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:15:18.704Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T17:15:24.582Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T17:15:24.585Z"}

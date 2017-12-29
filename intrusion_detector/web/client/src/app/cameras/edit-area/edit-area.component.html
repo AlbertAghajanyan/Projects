@@ -1,0 +1,52 @@
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="edit_area modal-content">
+            <div class="modal-header">
+                <div class="editHead">
+                    <h3>Edit</h3>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <label>Camera name:</label>
+                    <input type="text" class="form-control" value={{name}} [(ngModel)]="name" #ctrl="ngModel" />
+                </div>
+                <div>
+                    <div>
+                        <label>Location:</label>
+                    </div>
+                    <div class="location">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon3">Latitude:</span>
+                            <input type="number" class="form-control" id="basic-url" aria-describedby="basic-addon3" value={{latitude}} [(ngModel)]="latitude" #ctrl="ngModel">
+                        </div>
+                    </div>
+
+                    <div class="location">
+                        <div class="input-group">
+                            <span class="input-group-addon" id="basic-addon3">Longitude:</span>
+                            <input type="number" class="form-control" id="basic-url" aria-describedby="basic-addon3" value={{longitude}} [(ngModel)]="longitude" #ctrl="ngModel">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Description:</label>
+                        <input type="text" class="form-control" value={{description}} [(ngModel)]="description" #ctrl="ngModel" />
+                    </div>
+                    <div id="is-online-group">
+                        <span id="is-online">
+                                    Online
+                                </span>
+                        <input type="checkbox" name="checkboxArea" value="isOnline" id="is-online-checkbox" [(ngModel)]="online" #ctrl="ngModel">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="edit()">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cencel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<id-error-modal></id-error-modal>

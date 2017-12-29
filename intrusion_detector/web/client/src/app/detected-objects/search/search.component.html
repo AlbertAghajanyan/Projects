@@ -1,0 +1,31 @@
+<div class="col-md-3">
+    <div class="search">
+        <div class="hidden-md hidden-lg">
+            <button class="search-icon glyphicon glyphicon-search" (click)="openNav()" *ngIf="isSearchbarOpen"></button>
+            <div id="searchbar" class="sidenav">
+                <button type="button" class="close-icon close" aria-label="Close" (click)="closeNav()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                <label for="">Camera name</label>
+                <input [(ngModel)]="cameraName" type="text" placeholder="Enter camera name" class="input" #camNameMobile (change)="change()">
+                <label for="">Object type</label>
+                <input [(ngModel)]="objectType" type="text" placeholder="Enter object type" class="input" #objTypeMobile (change)="change()">
+                <label for="">Date range</label>
+                <input type="text" name="daterangeInput" daterangepicker [options]="options" (selected)="selectedDate($event)" class="input" [(ngModel)]="dateRange" (change)="change()" />
+                <button class="search-button glyphicon glyphicon-search" (click)="search()" [disabled]="isSearchEnable"></button>
+                <button class="search-button glyphicon glyphicon-trash" (click)="reset($event)" #resetMobileLabel [disabled]="isSearchEnable"></button>
+            </div>
+        </div>
+        <div class="search-col hidden-sm hidden-xs">
+            <label for="">Camera name</label>
+            <input [(ngModel)]="cameraName" type="text" placeholder="Enter camera name" class="input" #camName (change)="change()">
+            <label for="">Object type</label>
+            <input [(ngModel)]="objectType" type="text" placeholder="Enter object type" class="input" #objType (change)="change()">
+            <label for="">Date range</label>
+            <input type="text" name="daterangeInput" daterangepicker [options]="options" (selected)="selectedDate($event)" class="input" #myDate [(ngModel)]="dateRange" (change)="change()" />
+            <button class="search-button glyphicon glyphicon-search" (click)="search()" [disabled]="isSearchEnable"></button>
+            <button class="search-button glyphicon glyphicon-trash" (click)="reset($event)" #resetLabel [disabled]="isSearchEnable"></button>
+        </div>
+    </div>
+</div>
+<id-error-modal></id-error-modal>

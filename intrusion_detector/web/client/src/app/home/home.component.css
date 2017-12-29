@@ -1,0 +1,51 @@
+.container {
+    min-width: 300px;
+}
+
+.container,
+.col-md-12 {
+    width: 100%;
+    padding: 0;
+}
+
+carousel {
+    position: fixed;
+    height: calc(100vh - 60px - 64px);
+    width: 100%;
+    background-color: rgba(96, 108, 136, 0.6);
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    height: calc(100vh - 60px - 64px);
+    width: 100%;
+    object-fit: cover;
+}
+
+:host>>>div>a {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(96, 108, 136, 0.6);
+}
+
+@media (max-width: 768px) {
+    .img-responsive,
+    .thumbnail>img,
+    .thumbnail a>img,
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        object-fit: contain;
+    }
+     :host>>>div>a {
+        height: 50px;
+        width: 50px;
+    }
+}

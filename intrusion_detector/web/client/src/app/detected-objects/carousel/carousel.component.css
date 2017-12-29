@@ -1,0 +1,97 @@
+carousel {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.image-min-carousel {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+:host>>>div.carousel-inner>slide.item,
+:host>>>div.carousel-inner {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+}
+
+:host>>>div.slide {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    margin: auto;
+}
+
+:host>>>ol.carousel-indicators {
+    bottom: 15%;
+}
+
+:host>>>div>a {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(96, 108, 136, 0.6);
+}
+
+.close {
+    z-index: 3;
+    position: absolute;
+    right: 15px;
+    margin: 15px;
+    color: rgba(96, 108, 136, 1);
+}
+
+.close:focus {
+    outline: 0;
+}
+
+@media (max-width: 767px) {
+     :host>>>div.slide {
+        width: 100%;
+    }
+     :host>>>div>a {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.close-icon {
+    z-index: 110;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    background-color: #606c88;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #606c88;
+    border-radius: 100%;
+    color: wheat;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .5);
+    outline: none;
+    opacity: 1;
+}

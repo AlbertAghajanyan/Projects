@@ -1,0 +1,30 @@
+<div class="modal fade" id="edit" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="edit_area modal-content">
+            <div class="modal-header">
+                <div class="editHead">
+                    <h3>Edit</h3>
+                </div>
+            </div>
+            <form>
+                <div class="modal-body">
+                    <div class="loginmodal-container">
+                        <div>
+                            <label>Object type :</label>
+                            <input type="text" class="form-control" [(ngModel)]="objType" name="type" />
+                        </div>
+                        <div>
+                            <label>Detected date :</label>
+                            <input class="picker-input" [value]="date | date" [(ngModel)]="date" dateTimePicker [returnObject]=" 'string' " [viewFormat]="'YYYY-MM-DD HH:mm'" readonly [ngModelOptions]="{standalone: true}" (onChange)="setMoment($event)">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-dismiss="modal" (click)="editObject()">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cencel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<id-error-modal></id-error-modal>

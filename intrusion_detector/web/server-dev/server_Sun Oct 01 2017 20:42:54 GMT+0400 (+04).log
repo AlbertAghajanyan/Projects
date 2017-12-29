@@ -1,0 +1,62 @@
+{"level":"info","message":"DataBase constructor called","timestamp":"2017-10-01T16:42:54.275Z"}
+{"level":"info","message":"Called upload image","timestamp":"2017-10-01T16:42:55.595Z"}
+{"level":"info","message":"Data base connection failure !!!","timestamp":"2017-10-01T16:42:56.037Z"}
+{"level":"info","message":"Called get all cameras","timestamp":"2017-10-01T16:44:27.849Z"}
+{"level":"error","message":"Get cameras internal server error","timestamp":"2017-10-01T16:44:27.866Z"}
+{"level":"info","message":"Called get all cameras","timestamp":"2017-10-01T16:46:29.763Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:46:54.939Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T16:46:54.954Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:46:59.936Z"}
+{"0":{"id":13,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder6","last_detected_date":"2017-01-01T10:03:00.000Z","cameras_id":8,"traffic_id":1,"camera_name":"Camera-6"},"level":"info","message":"","timestamp":"2017-10-01T16:46:59.950Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:09.301Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:47:09.304Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:16.147Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:47:16.151Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:17.295Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:47:17.300Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:17.495Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:47:17.501Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:17.703Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:47:17.706Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:30.950Z"}
+{"0":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"level":"info","message":"","timestamp":"2017-10-01T16:47:30.953Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:32.384Z"}
+{"0":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"level":"info","message":"","timestamp":"2017-10-01T16:47:32.388Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:32.586Z"}
+{"0":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"level":"info","message":"","timestamp":"2017-10-01T16:47:32.588Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:33.537Z"}
+{"0":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"level":"info","message":"","timestamp":"2017-10-01T16:47:33.547Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:33.748Z"}
+{"0":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"level":"info","message":"","timestamp":"2017-10-01T16:47:33.750Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:39.647Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"1":{"id":9,"type":"people","first_detected_date":"2017-08-02T11:33:55.000Z","url":"./server/upload/images/folder2","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":4,"traffic_id":2,"camera_name":"Camera-2"},"2":{"id":10,"type":"people","first_detected_date":"2017-08-03T11:33:55.000Z","url":"./server/upload/images/folder3","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":5,"traffic_id":3,"camera_name":"Camera-3"},"3":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"4":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"5":{"id":13,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder6","last_detected_date":"2017-01-01T10:03:00.000Z","cameras_id":8,"traffic_id":1,"camera_name":"Camera-6"},"6":{"id":14,"type":"people","first_detected_date":"2017-08-02T11:33:55.000Z","url":"./server/upload/images/folder7","last_detected_date":"2017-01-01T11:03:00.000Z","cameras_id":9,"traffic_id":2,"camera_name":"Camera-7"},"7":{"id":16,"type":"people","first_detected_date":"2017-08-03T11:33:55.000Z","url":"./server/upload/images/folder8","last_detected_date":"2017-01-02T12:03:00.000Z","cameras_id":13,"traffic_id":3,"camera_name":"Camera-11"},"8":{"id":17,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder9","last_detected_date":"2017-01-03T13:03:00.000Z","cameras_id":14,"traffic_id":4,"camera_name":"Camera-12"},"level":"info","message":"","timestamp":"2017-10-01T16:47:39.653Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:40.356Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"1":{"id":9,"type":"people","first_detected_date":"2017-08-02T11:33:55.000Z","url":"./server/upload/images/folder2","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":4,"traffic_id":2,"camera_name":"Camera-2"},"2":{"id":10,"type":"people","first_detected_date":"2017-08-03T11:33:55.000Z","url":"./server/upload/images/folder3","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":5,"traffic_id":3,"camera_name":"Camera-3"},"3":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"4":{"id":12,"type":"animal","first_detected_date":"2017-08-03T13:33:55.000Z","url":"./server/upload/images/folder5","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":7,"traffic_id":5,"camera_name":"Camera-5"},"5":{"id":13,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder6","last_detected_date":"2017-01-01T10:03:00.000Z","cameras_id":8,"traffic_id":1,"camera_name":"Camera-6"},"6":{"id":14,"type":"people","first_detected_date":"2017-08-02T11:33:55.000Z","url":"./server/upload/images/folder7","last_detected_date":"2017-01-01T11:03:00.000Z","cameras_id":9,"traffic_id":2,"camera_name":"Camera-7"},"7":{"id":16,"type":"people","first_detected_date":"2017-08-03T11:33:55.000Z","url":"./server/upload/images/folder8","last_detected_date":"2017-01-02T12:03:00.000Z","cameras_id":13,"traffic_id":3,"camera_name":"Camera-11"},"8":{"id":17,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder9","last_detected_date":"2017-01-03T13:03:00.000Z","cameras_id":14,"traffic_id":4,"camera_name":"Camera-12"},"level":"info","message":"","timestamp":"2017-10-01T16:47:40.362Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:52.301Z"}
+{"0":{"id":7,"type":"people","first_detected_date":"2017-08-01T08:33:55.000Z","url":"./server/upload/images/folder1","last_detected_date":"2017-01-01T08:03:00.000Z","cameras_id":1,"traffic_id":1,"camera_name":"Camera-1"},"level":"info","message":"","timestamp":"2017-10-01T16:47:52.309Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:47:59.861Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:47:59.863Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:01.788Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:48:01.792Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:02.056Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:48:02.058Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:19.774Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:48:19.788Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:37.940Z"}
+{"0":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"1":{"id":17,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder9","last_detected_date":"2017-01-03T13:03:00.000Z","cameras_id":14,"traffic_id":4,"camera_name":"Camera-12"},"level":"info","message":"","timestamp":"2017-10-01T16:48:37.943Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:51.290Z"}
+{"0":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"level":"info","message":"","timestamp":"2017-10-01T16:48:51.299Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:52.651Z"}
+{"0":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"level":"info","message":"","timestamp":"2017-10-01T16:48:52.654Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:48:52.939Z"}
+{"0":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"level":"info","message":"","timestamp":"2017-10-01T16:48:52.941Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:49:17.230Z"}
+{"0":{"id":17,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder9","last_detected_date":"2017-01-03T13:03:00.000Z","cameras_id":14,"traffic_id":4,"camera_name":"Camera-12"},"level":"info","message":"","timestamp":"2017-10-01T16:49:17.241Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:49:25.240Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:49:25.244Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:49:26.490Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:49:26.493Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:49:26.728Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:49:26.730Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:51:46.420Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:51:46.428Z"}

@@ -1,0 +1,23 @@
+{"level":"info","message":"DataBase constructor called","timestamp":"2017-10-01T16:52:09.863Z"}
+{"level":"info","message":"Called upload image","timestamp":"2017-10-01T16:52:11.000Z"}
+{"level":"info","message":"Data Base connection success ...","timestamp":"2017-10-01T16:52:11.232Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:52:47.130Z"}
+{"0":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"1":{"id":17,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder9","last_detected_date":"2017-01-03T13:03:00.000Z","cameras_id":14,"traffic_id":4,"camera_name":"Camera-12"},"level":"info","message":"","timestamp":"2017-10-01T16:52:47.143Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:23.759Z"}
+{"0":{"id":11,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder4","last_detected_date":"2017-01-01T09:03:00.000Z","cameras_id":6,"traffic_id":4,"camera_name":"Camera-4"},"level":"info","message":"","timestamp":"2017-10-01T16:53:23.770Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:34.803Z"}
+{"0":{"id":17,"type":"car","first_detected_date":"2017-08-03T12:33:55.000Z","url":"./server/upload/images/folder9","last_detected_date":"2017-01-03T13:03:00.000Z","cameras_id":14,"traffic_id":4,"camera_name":"Camera-12"},"level":"info","message":"","timestamp":"2017-10-01T16:53:34.806Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:46.390Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:53:46.407Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:47.703Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:53:47.708Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:47.942Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:53:47.944Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:58.509Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:53:58.511Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:59.536Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:53:59.539Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:53:59.732Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:53:59.734Z"}
+{"level":"info","message":"Called search objects","timestamp":"2017-10-01T16:54:55.174Z"}
+{"level":"info","message":"","timestamp":"2017-10-01T16:54:55.194Z"}

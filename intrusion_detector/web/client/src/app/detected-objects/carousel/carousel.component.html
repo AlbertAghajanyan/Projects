@@ -1,0 +1,12 @@
+<button type="button" class="close-icon close" aria-label="Close" (click)="carouselNone()">
+    <span aria-hidden="true">&times;</span>
+</button>
+<carousel>
+    <slide *ngFor="let image of object.imagesEncode">
+        <img [src]="'data:image/jpg;base64,' + image" class="image-min-carousel " alt="First slide">
+        <!--div class="carousel-caption">
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div-->
+    </slide>
+</carousel>

@@ -1,0 +1,177 @@
+.cont {
+    min-height: 400px;
+}
+
+.card-container.card {
+    min-width: 170px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 500px) {
+    .card-container.card {
+        padding: 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .card-container.card {
+        padding: 15px 15px;
+    }
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 20px 25px 30px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    left: 50%;
+    top: calc(50% - 30px);
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    text-align: center;
+}
+
+.profile-img-card {
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .profile-img-card {
+        width: 96px;
+        height: 96px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .profile-img-card {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+/*
+ * Form styles
+ */
+
+@media only screen and (min-width: 500px) {
+    .form-signin #inputEmail,
+    .form-signin #inputPassword {
+        direction: ltr;
+        height: 44px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .form-signin #inputEmail,
+    .form-signin #inputPassword {
+        direction: ltr;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgb(104, 145, 162);
+}
+
+.btn-signin {
+    background-color: rgb(63, 76, 107);
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn-signin:hover,
+.btn-signin:active,
+.btn-signin:focus {
+    background-color: rgb(96, 108, 136);
+    outline: none;
+}
+
+#remember {
+    float: left;
+}
+
+.err {
+    color: red;
+    background-color: #ffe2e2;
+    border: 1px solid #ffbfbf;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 2s infinite;
+}
+
+@media only screen and (max-width: 499px) {
+    .err {
+        font-size: 0.7em;
+    }
+}
+
+@-webkit-keyframes mymove {
+    from {
+        background-color: #ffe2e2;
+    }
+    to {
+        background-color: #f7bbbb;
+    }
+}
+
+@keyframes mymove {
+    from {
+        background-color: #ffe2e2;
+    }
+    to {
+        background-color: #f7bbbb;
+    }
+}
+
+.err:hover {
+    background-color: #fccfcf;
+}
+
+.errorInput {
+    border-color: red;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px red;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px red;
+}
