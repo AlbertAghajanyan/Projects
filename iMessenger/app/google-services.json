@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "966734019106",
+    "firebase_url": "https://imessenger-acb6b.firebaseio.com",
+    "project_id": "imessenger-acb6b",
+    "storage_bucket": "imessenger-acb6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966734019106:android:ace65877f4f7e7b2",
+        "android_client_info": {
+          "package_name": "com.instigatemobile.imessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966734019106-m854h2bh8utb1mca48m8259h6h9qkta1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc5wE8ejbd4uAbgqAg0Vw63JW5sL-wdPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

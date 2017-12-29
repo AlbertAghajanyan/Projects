@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingTop="100dp">
+
+    <ImageView
+        android:id="@+id/splashImageView"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="false"
+        android:src="@drawable/chat_icon" />
+
+    <TextView
+        android:id="@+id/splashImageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/splash_slogan"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:letterSpacing="0.04"
+        android:textStyle="italic|bold" />
+</RelativeLayout>

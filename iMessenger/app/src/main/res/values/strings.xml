@@ -1,0 +1,89 @@
+<resources>
+    <!-- Strings related to splash -->
+    <string name="app_name">iMessenger</string>
+    <string name="splash_title">iMessenger</string>
+    <string name="splash_slogan">We build smiles...</string>
+    <string name="font_family">monospace</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up_question">No account yet?</string>
+    <string name="action_sign_up_suggestion">Create one</string>
+
+    <!-- Strings related to validation -->
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Enter Some Password</string>
+
+    <!-- Strings related to register -->
+    <string name="hint_name">Name</string>
+    <string name="action_sign_up">Sign up</string>
+
+    <!-- Strings related to menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_language">Language</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_about">About Us</string>
+    <string name="search_title">Search</string>
+
+    <!-- Strings related to main -->
+    <string name="section_contacts">Contacts</string>
+    <string name="section_profile">My Profile</string>
+    <string name="section_favorites">Favorites</string>
+
+    <!-- Strings related to about us fragment -->
+    <string name="contact">+374 (60) 44 55 00</string>
+    <string name="instigate_mobile">Instigate Mobile</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!-- Strings related to messenger fragment -->
+    <string name="typeText">Write a message</string>
+
+    <!-- Strings related to language dialog-->
+    <string name="lang_dialog_title">Change Language</string>
+
+    <!-- Language select dialog -->
+    <string-array name="lang_select">
+        <item>English</item>
+        <item>Հայերեն</item>
+    </string-array>
+
+    <!-- Strings related to forgot / reset password fragmnet-->
+    <string name="action_submit">Submit</string>
+    <string name="hint_confirm_password">Confirm password</string>
+
+    <!-- Strings related to dialogs -->
+    <string name="logout_dialog_question">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="get_friends">Get all friends...</string>
+    <string name="add_friend">Add friend</string>
+    <string name="friend_email">Enter friend email</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="finding_friend">Finding friend....</string>
+    <string name="fail">Fail</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="friend">Friend</string>
+    <string name="failed_add_friend">Failed to add friend</string>
+    <string name="success">Success</string>
+    <string name="add_friend_success">Friend successfully added</string>
+    <string name="delete_friend">Delete Friend</string>
+    <string name="delete_confirmation">Are you sure you want to delete %1$s user?</string>
+    <string name="question">\?</string>
+    <string name="deleting">Deleting...</string>
+    <string name="error">Error</string>
+    <string name="error_occurred">Error occurred while deleting friend</string>
+    <string name="delete_success">Friend successfully deleted</string>
+
+    <string name="new_message">You have a new message!!!</string>
+
+    <string name="delete_msg">Delete</string>
+    <string name="delete_msg_quastion">Delete this entire conversation ?</string>
+</resources>

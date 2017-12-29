@@ -1,0 +1,89 @@
+<resources>
+    <!-- Strings related to splash -->
+    <string name="app_name">iMessenger</string>
+    <string name="splash_title">iMessenger</string>
+    <string name="splash_slogan">We build smiles...</string>
+    <string name="font_family">monospace</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Էլ․ հասցե</string>
+    <string name="prompt_password">Գաղտնաբառ</string>
+    <string name="hint_email">Էլ․ հասցե</string>
+    <string name="hint_password">Գաղտնաբառ</string>
+    <string name="action_sign_in">Մուտք</string>
+    <string name="action_sign_up_question">Դեռ գրանցվա՞ծ չես։</string>
+    <string name="action_sign_up_suggestion">Միացի՛ր մեզ։</string>
+
+    <!-- Strings related to validation -->
+    <string name="nameerror">Մուտքագրեք վավեր անուն</string>
+    <string name="emailerror">Մուտքագրեք վավեր էլ․ հասցե</string>
+    <string name="passworderror">Մուտքագրեք գաղտնաբառը</string>
+
+    <!-- Strings related to register -->
+    <string name="hint_name">Անուն</string>
+    <string name="action_sign_up">Գրանցվել</string>
+
+    <!-- Strings related to menu -->
+    <string name="action_settings">Կարգավորումներ</string>
+    <string name="action_language">Լեզու</string>
+    <string name="action_logout">Դուրս գալ</string>
+    <string name="action_about">Մեր մասին</string>
+    <string name="search_title">Որոնում</string>
+
+    <!-- Strings related to main -->
+    <string name="section_contacts">Կոնտակտներ</string>
+    <string name="section_profile">Իմ էջը</string>
+    <string name="section_favorites">Ֆավորիտներ</string>
+
+    <!-- Strings related to about us fragment -->
+    <string name="contact">+374 (60) 44 55 00</string>
+    <string name="instigate_mobile">Ինստիգեյթ Մոբայլ</string>
+
+    <string name="forgot_password">Մոռացե՞լ ես գաղտնաբառը</string>
+
+    <!-- Strings related to messenger fragment -->
+    <string name="typeText">Մուտքագրել տեքստը</string>
+
+    <!-- Strings related to language dialog-->
+    <string name="lang_dialog_title">Փոխել լեզուն</string>
+
+    <!-- Language select dialog -->
+    <string-array name="lang_select">
+        <item>English</item>
+        <item>Հայերեն</item>
+    </string-array>
+
+    <!-- Strings related to forgot / reset password fragmnet-->
+    <string name="action_submit">Հաստատել</string>
+    <string name="hint_confirm_password">Հաստատել գաղտնաբառը</string>
+
+    <!-- Strings related to dialogs -->
+    <string name="logout_dialog_question">Վստա՞հ եք, որ ուզում եք դուրս գալ</string>
+    <string name="yes">Այո</string>
+    <string name="no">Ոչ</string>
+    <string name="select">Հաստատել</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="get_friends">Բեռնել ընկերների ցուցակը...</string>
+    <string name="add_friend">Ավելացնել ընկեր</string>
+    <string name="friend_email">Մուտքագրեք ընկերոջ էլ․ հասցեն</string>
+    <string name="email_not_found">Էլ․ հասցեն չի գտնվել</string>
+    <string name="finding_friend">Որոնում...</string>
+    <string name="fail">Ձախողում</string>
+    <string name="email_not_valid">Անվավեր էլ․ հասցե</string>
+    <string name="friend">Ընկեր</string>
+    <string name="failed_add_friend">Չհաջողվեց ավելացնել ընկեր</string>
+    <string name="success">Հաջողվեց</string>
+    <string name="add_friend_success">Ընկերը հաջողությամբ ավելացվեց</string>
+    <string name="delete_friend">Ջնջել ընկերոջը</string>
+    <string name="delete_confirmation">Վստա՞հ եք, որ ուզում եք ջնջել %1$s օգտատերին</string>
+    <string name="question"></string>
+    <string name="deleting">Ջնջում...</string>
+    <string name="error">Սխալ</string>
+    <string name="error_occurred">Ընկերոջը ջնջելիս տեղի ունեցավ սխալ</string>
+    <string name="delete_success">Ընկերը հաջողությամբ ջնջված է</string>
+
+    <string name="new_message">Նոր նամակ ունեք!!!</string>
+
+    <string name="delete_msg">Ջնջել</string>
+    <string name="delete_msg_quastion">Ջնջե՞լ ամբողջ նամակագրությունը ?</string>
+</resources>

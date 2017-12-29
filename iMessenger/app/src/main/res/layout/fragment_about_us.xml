@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/about_us_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.005" />
+
+        <ImageView
+            android:id="@+id/logof"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.22"
+            app:srcCompat="@drawable/instigate_logo_white" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.005" />
+
+        <TextView
+            android:id="@+id/instigateNamef"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_weight="0.11"
+            android:fontFamily="@string/font_family"
+            android:text="@string/instigate_mobile"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.07"
+            android:background="@drawable/radius_button"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/contact"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.02" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.025" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleViewPerson"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.53"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>
